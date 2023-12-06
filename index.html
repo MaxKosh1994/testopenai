@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TextBot</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./index.js" type="module" defer></script>
+    <script src="./script.js" type="module" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="headerContent">
+        <div class="authorization">
+          <div class="auth-button">Регистрация</div>
+          <div class="auth-button">Войти</div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="spacer"></div>
+      <div class="container">
+        <div class="sidebar"></div>
+        <div class="content">
+          <div class="post">
+            <div class="post-header">Некий чат-бот</div>
+            <div class="post-author">
+              Автор: <a href="#">JuckieChan</a> от <a href="#">04.12.2023</a>,
+              просмотров: 2
+            </div>
+            <div class="post-content">
+              <div id="chat">
+              </div>
+              <textarea id="chat-input" name="" id="" cols="30" rows="10" placeholder="Введите сообщение" autofocus></textarea>
+              <button class="send-button">Отправить</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="spacer"></div>
+    </main>
+    <footer>
+      <div class="footerContent"></div>
+    </footer>
+  </body>
+</html>
